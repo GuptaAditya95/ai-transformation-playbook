@@ -1,0 +1,42 @@
+title: AI Transformation Playbook
+description: >-
+  Frameworks for leading AI transformation, learned one lesson at a time
+  and distilled into something you can actually use.
+author: Aditya Gupta
+url: "https://guptaaditya95.github.io"
+baseurl: "/ai-transformation-playbook"
+
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+permalink: /lessons/:slug/
+
+# Email subscriptions: paste your follow.it (or other RSS-to-email) form URL here.
+# Leave blank to show only the RSS option.
+subscribe:
+  email_form_action: ""
+
+feed:
+  path: feed.xml
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: lesson
+
+# Raw notes and templates live in the repo but are never published.
+exclude:
+  - notes/
+  - templates/
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+
+header_pages:
+  - frameworks.md
+  - subscribe.md
+  - about.md

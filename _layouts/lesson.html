@@ -1,0 +1,25 @@
+---
+layout: default
+---
+<article class="lesson">
+  <header class="lesson-header">
+    {% if page.module %}<p class="lesson-module">{{ page.module }}</p>{% endif %}
+    <h1>{{ page.title }}</h1>
+    <p class="lesson-meta">
+      {{ page.date | date: "%B %-d, %Y" }}
+      {% if page.framework %} · Framework: <strong>{{ page.framework }}</strong>{% endif %}
+    </p>
+    {% if page.summary %}<p class="lesson-summary">{{ page.summary }}</p>{% endif %}
+  </header>
+
+  <div class="lesson-body">
+    {{ content }}
+  </div>
+
+  {% include subscribe.html %}
+
+  <nav class="lesson-nav">
+    {% if page.previous %}<a href="{{ page.previous.url | relative_url }}">← {{ page.previous.title }}</a>{% endif %}
+    {% if page.next %}<a href="{{ page.next.url | relative_url }}">{{ page.next.title }} →</a>{% endif %}
+  </nav>
+</article>

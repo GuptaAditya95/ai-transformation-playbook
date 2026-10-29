@@ -1,0 +1,13 @@
+<aside class="subscribe">
+  <h3>Get new lessons as they're published</h3>
+  {% if site.subscribe.email_form_action != "" %}
+  <form action="{{ site.subscribe.email_form_action }}" method="post" target="_blank">
+    <input type="email" name="email" placeholder="you@example.com" required aria-label="Email address">
+    <button type="submit">Subscribe by email</button>
+  </form>
+  {% endif %}
+  <p>
+    <a href="{{ '/feed.xml' | relative_url }}">RSS feed</a> for your reader
+    · <a href="https://github.com/GuptaAditya95/ai-transformation-playbook">Watch on GitHub</a>
+  </p>
+</aside>
