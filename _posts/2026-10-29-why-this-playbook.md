@@ -11,7 +11,7 @@ I'm going to turn each lesson into a framework and publish it here.
 
 - **Learning in public keeps me honest.** If I can't explain a framework simply, I haven't understood it.
 - **Frameworks travel better than notes.** A good framework is something you can take into a meeting tomorrow.
-- **Application is the point.** Every lesson ends with how to put it to work.
+- **Application is the point.** Every lesson includes a worked case study and ends with how to put it to work.
 
 ## How each lesson is structured
 
@@ -19,7 +19,8 @@ I'm going to turn each lesson into a framework and publish it here.
 |---|---|
 | Key pointers | The handful of ideas worth remembering |
 | The framework | Those ideas organised into something reusable |
-| Putting it to work | Concrete steps for applying it in an organisation |
+| Case study | The framework applied step by step to Meridian, a fictional insurer |
+| Putting it to work | Concrete steps for applying it in your organisation |
 
 ## Follow along
 

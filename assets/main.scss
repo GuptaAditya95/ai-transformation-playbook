@@ -20,3 +20,18 @@ $accent: #3b5bdb;
 .framework-list { list-style: none; margin-left: 0; }
 .framework-list li { margin-bottom: 1.25rem; }
 .framework-list .fw-name { font-weight: 600; font-size: 1.1rem; }
+
+.hero-lede { font-size: 1.2rem; color: #333; }
+.button { display: inline-block; margin: .25rem .5rem .25rem 0; padding: .6rem 1.1rem; border-radius: 6px; background: $accent; color: #fff !important; font-weight: 600; }
+.button:hover { text-decoration: none; opacity: .9; }
+.button-secondary { background: #fff; color: $accent !important; border: 1px solid $accent; }
+
+.steps { display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: .75rem; margin-bottom: 2rem; }
+.step { background: #f7f8fb; border-radius: 8px; padding: 1rem; font-size: .95rem; }
+.step-num { display: block; width: 1.6rem; height: 1.6rem; line-height: 1.6rem; text-align: center; border-radius: 50%; background: $accent; color: #fff; font-weight: 600; margin-bottom: .5rem; }
+
+.lesson-list { list-style: none; margin-left: 0; }
+.lesson-list li { padding: 1rem 0; border-bottom: 1px solid #eee; }
+.lesson-list p { margin-bottom: .25rem; }
+.lesson-title { font-size: 1.3rem; font-weight: 600; }
+.lesson-fw { color: #666; font-size: .9rem; }

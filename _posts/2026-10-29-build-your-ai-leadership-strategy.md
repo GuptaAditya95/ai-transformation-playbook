@@ -49,6 +49,50 @@ The Translation Method turns business goals into a small, measurable AI portfoli
 The method translates strategy into three answers: **where AI matters most, when to invest, and how
 you'll know it works.**
 
+## Case study: Meridian Insurance picks its first AI bets
+
+*Meridian is a fictional mid-sized home and motor insurer, used throughout this playbook to show each
+framework in action. The numbers are illustrative.*
+
+Meridian's leadership team has a backlog of 23 AI ideas from across the business, from a customer chatbot
+to "use generative AI for marketing copy". The COO asks for a portfolio, not a wish list.
+
+**Steps 1 and 2: Pull goals and attach KPIs.** Three objectives are already in this year's plan.
+
+| Committed objective | Primary KPI | Guardrail metric | Sponsor |
+|---|---|---|---|
+| Faster claims | Average claim cycle time: 12 days → 7 | Claims accuracy (reopened claims ≤ 3%) | COO |
+| Lower cost to serve | Cost per claim: −10% | Customer satisfaction (NPS ≥ 40) | CFO |
+| Retain more customers | Renewal rate: 82% → 85% | Loss ratio does not rise | Chief Customer Officer |
+
+**Step 3: Map the workflow.** Mapping the claims process shows that most of the 12 days isn't spent in the
+claims department at all. Around 5 days are lost at **first notification of loss**, where a claim waits to
+be triaged and assigned. Renewals are mostly won or lost at the **pricing review 30 days before renewal**,
+not in the retention team that owns the metric.
+
+**Step 4: Ask AI.** Only now does the team look at the 23 ideas, keeping those that touch a mapped
+decision point and estimating the KPI movement.
+
+| Idea | Decision point | Expected KPI movement |
+|---|---|---|
+| Automated claims triage and routing | First notification of loss | Cycle time −4 days |
+| Document extraction for claim evidence | Claims assessment | Cost per claim −6% |
+| Churn-risk prediction ahead of renewal | Renewal pricing review | Renewal rate +2 pts |
+| Customer chatbot | General enquiries | No mapped KPI |
+| Generative AI marketing copy | Campaign production | No mapped KPI |
+
+**Steps 5 and 6: Pick 2–3 bets and park the experiments.** Meridian commits to three bets: claims triage,
+document extraction and churn-risk prediction. The chatbot and the marketing copy tool aren't rejected; they
+are labelled as experiments, get a small fixed budget, and are reported separately so they can't be
+mistaken for strategy.
+
+**Step 7: Set a baseline and Go/No-Go gate.** For claims triage, the baseline is 12.1 days average cycle time
+and 2.8% reopened claims, measured over the last two quarters. The gate: after a 10-week pilot on motor
+claims, continue only if cycle time drops by at least 2 days *and* reopened claims stay under 3%.
+
+**The result:** three answers the board can understand. AI matters most at claims intake and renewal pricing;
+Meridian invests there first; and it will know triage works when cycle time falls without accuracy slipping.
+
 ## Putting it to work
 
 Run every proposed AI initiative through three filter questions:

@@ -84,6 +84,72 @@ Good AI governance does five things:
 - Requires evidence
 - Creates escalation paths
 
+## Case study: Meridian Insurance tries to scale a pilot
+
+*Meridian is the fictional insurer from [lesson 1]({{ '/lessons/build-your-ai-leadership-strategy/' | relative_url }}).
+The numbers are illustrative.*
+
+Meridian's claims triage pilot on **motor** claims hit its gate: cycle time fell by 3 days and reopened claims
+stayed at 2.6%. The board asks to roll it out to **home** claims next quarter. Before agreeing, the COO runs
+a readiness check.
+
+**What the pilot hid.**
+- *Data gap:* home claims descriptions are free-text notes from loss adjusters, while motor claims use a
+  structured online form. The model was trained only on the structured data.
+- *Context dependency:* motor claims are mostly similar in size. Home claims range from a broken window to a
+  flooded house, so a routing mistake costs far more.
+- *Hidden differences:* the home claims team uses a different system, has no data owner, and has never
+  worked alongside an AI tool.
+
+**Each function's lens.** Asked "are we ready?", the business head says yes (the use case is proven), the
+data team says yes (their dashboards cover home claims), IT says yes (the platform can scale), and
+governance says yes (the AI policy is signed). Each answer is true, and together they miss the problem.
+
+**The six-dimension check** (1 = weak, 5 = strong):
+
+| Dimension | Score | Evidence |
+|---|---|---|
+| Strategy | 5 | Tied to the cycle time KPI and sponsored by the COO |
+| Data | 2 | Home claims data fails the AI-ready test (below) |
+| Governance | 3 | Policy exists, but nobody owns home claims data |
+| Infrastructure | 4 | Platform scales; needs a connector to the home claims system |
+| Talent | 3 | Motor team trained; home team not yet |
+| Culture | 2 | Home adjusters see triage as a threat to their judgement |
+
+**Is the home claims data AI-ready?**
+
+| Quality | Finding |
+|---|---|
+| Reliable | Partly. Claim categories are coded inconsistently between regions |
+| Governed | No. There's no named owner |
+| Secure | Yes. Stored in the compliant claims platform |
+| Accessible | No. The triage model can't reach the home claims system yet |
+| Fit for purpose | No. Free-text notes need extraction before triage can use them |
+
+The data feeds a perfectly good weekly dashboard, and still isn't ready for AI.
+
+**Building in responsible AI.** Meridian maps the rollout onto the lifecycle:
+
+| Stage | What Meridian does |
+|---|---|
+| Propose | Names the risk: a severe claim routed to the slow queue harms a vulnerable customer |
+| Collect data | Samples claims from every region and property type, not just the regions with clean data |
+| Develop | Training and test results are reviewed by the AI governance group before release |
+| Deploy | Every claim over £20,000 still gets a human check; adjusters can override any routing |
+| Monitor | Monthly report on cycle time, override rate and outcomes by region and customer age group |
+
+At the bias review, a claims manager with no technical background asks the three questions. *Training data:*
+older customers are more likely to report by phone, so they're under-represented in the digital records.
+*Model design:* postcode is an input, which can act as a proxy for income. *Human interpretation:* adjusters
+may treat a "low priority" label as a judgement on the customer. All three get a mitigation before launch.
+
+**Governance in practice:** the governance group sets the standard (the £20,000 human-check rule), reviews
+the case as high-risk, assigns a home claims data owner, requires the monitoring report as evidence, and gives
+adjusters an escalation path when they think the model is wrong.
+
+**The decision:** the rollout is delayed by one quarter to fix data ownership and accessibility and to
+train the home claims team. The pilot was a success; the organisation wasn't ready for it yet.
+
 ## Putting it to work
 
 1. **Run a six-dimension readiness check.** Score strategy, data, governance, infrastructure, talent and

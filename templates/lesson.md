@@ -24,6 +24,20 @@ tags: []
 | 2. <Element> | <Explanation> | <Question> |
 | 3. <Element> | <Explanation> | <Question> |
 
+## Case study: <Company> <does something>
+
+<!-- A worked example applying the framework step by step to Meridian Insurance, the fictional
+     insurer used across the playbook. Show real-looking numbers, tables and the decision reached.
+     Keep the "fictional, illustrative" note. -->
+
+*Meridian is a fictional mid-sized home and motor insurer used throughout this playbook. The numbers are illustrative.*
+
+<Situation: what Meridian is facing.>
+
+**Step 1: <Element>.** <What they did, with numbers.>
+
+**The result:** <The decision and what changed.>
+
 ## Putting it to work
 
 <!-- How someone uses this on Monday morning. -->
