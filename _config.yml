@@ -16,7 +16,7 @@ permalink: /lessons/:slug/
 # Email subscriptions: paste your follow.it (or other RSS-to-email) form URL here.
 # Leave blank to show only the RSS option.
 subscribe:
-  email_form_action: ""
+  email_form_action: "https://api.follow.it/subscription-form/YndOTnZHM0l2d1lVdW9DdEpMS0ErRnJvR0xzTU9KWDNPR3hYb0IyZGR1STc4RVRWeXNSODdnWXg5SmhFNDdBdnZ4bFdzQk1hc3FwWGJCdVl0MkxuZy92Ym9jK1Y5bEpqVzRJNVR3akx5T1JkeUtuZFBTeWJiMHNlVlAwdXBjNU18bXlMT1dwSWh2VytieEtkR2o1czNjQnl0cFh2RmM0Sm9qdWJZS2RUN0FDRT0=/8"
 
 feed:
   path: feed.xml

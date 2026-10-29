@@ -9,5 +9,6 @@
   <p>
     <a href="{{ '/feed.xml' | relative_url }}">RSS feed</a> for your reader
     · <a href="https://github.com/GuptaAditya95/ai-transformation-playbook">Watch on GitHub</a>
+    {% if site.subscribe.email_form_action != "" %}<br><small>Email delivery by <a href="https://follow.it">follow.it</a>. Unsubscribe any time.</small>{% endif %}
   </p>
 </aside>
