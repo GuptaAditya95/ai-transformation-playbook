@@ -1,5 +1,6 @@
 ---
 title: "Why I'm building this playbook"
+date: 2026-10-29 08:00:00 +0000
 summary: "What this site is, how each lesson is structured, and how to follow along."
 ---
 

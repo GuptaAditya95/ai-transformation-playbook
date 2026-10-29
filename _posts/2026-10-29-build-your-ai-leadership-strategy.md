@@ -1,6 +1,7 @@
 ---
 title: "Build your AI leadership strategy"
 module: "Lesson 1"
+date: 2026-10-29 10:00:00 +0000
 framework: "The Translation Method"
 summary: "Turn committed business goals into two or three AI bets you can measure, and keep everything else labelled as an experiment."
 tags: [strategy, portfolio, kpis]
