@@ -15,6 +15,7 @@ site above. It's written for business leaders, so no technical background is nee
 | 1 | [Build your AI leadership strategy](https://guptaaditya95.github.io/ai-transformation-playbook/lessons/build-your-ai-leadership-strategy/) | The Translation Method | Turn business goals into 2–3 measurable AI bets |
 | 2 | [AI literacy for business leaders](https://guptaaditya95.github.io/ai-transformation-playbook/lessons/ai-literacy-for-business-leaders/) | AI Readiness and Responsible AI | Check if you can scale AI, and build it responsibly |
 | 3 | [Prioritise AI pilots: from a dozen to three](https://guptaaditya95.github.io/ai-transformation-playbook/lessons/prioritise-ai-pilots/) | The Value–Feasibility–Risk Sort | Choose which pilots to fund, and defend the order |
+| 4 | [Build the AI transformation roadmap](https://guptaaditya95.github.io/ai-transformation-playbook/lessons/build-the-ai-transformation-roadmap/) | The Absorption and Momentum Tests | Turn a ranked list into a phased roadmap the board will approve |
 
 Every lesson follows the same shape: **key pointers → the framework → a case study → putting it to work.**
 The case studies follow Meridian Insurance, a fictional company, so you can see the frameworks build on each other.
